@@ -16,9 +16,9 @@ function supportStorage() {
       player: { playedOption: "", score: 0 },
       machine: { playedOption: "", score: 0 },
       playedImg: {
-        piedra: "../public/piedra.svg",
-        papel: "../public/papel.svg",
-        tijera: "../public/tijera.svg",
+        piedra: "../dist/piedra.svg",
+        papel: "../dist/papel.svg",
+        tijera: "../dist/tijera.svg",
       },
       runGame: true,
     },
@@ -58,9 +58,9 @@ function supportStorage() {
         player: { playedOption: "", score: 0 },
         machine: { playedOption: "", score: 0 },
         playedImg: {
-          piedra: "../public/piedra.svg",
-          papel: "../public/papel.svg",
-          tijera: "../public/tijera.svg",
+          piedra: "../dist/piedra.svg",
+          papel: "../dist/papel.svg",
+          tijera: "../dist/tijera.svg",
         },
         runGame: true,
       };

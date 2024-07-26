@@ -16,17 +16,17 @@ export function playView(params: { goTo: Function }): HTMLDivElement {
     div.classList.add("background");
     div.innerHTML = `
         <div class="content">
-            <img src="../public/count3.svg" alt="3s Remaining">
+            <img src="../dist/count3.svg" alt="3s Remaining">
         </div>
         <div class="images">
             <button>
-                <img src="../public/tijera.svg" alt="tijera" class="image scissors">
+                <img src="../dist/tijera.svg" alt="tijera" class="image scissors">
             </button>
             <button>
-                <img src="../public/piedra.svg" alt="piedra" class="image rock">
+                <img src="../dist/piedra.svg" alt="piedra" class="image rock">
             </button>
             <button>
-                <img src="../public/papel.svg" alt="papel" class="image paper">
+                <img src="../dist/papel.svg" alt="papel" class="image paper">
             </button>
         </div>
     `;
@@ -56,7 +56,7 @@ export function playView(params: { goTo: Function }): HTMLDivElement {
 
     setTimeout(() => {
       div.querySelector(`.content`)!.innerHTML = `
-          <img src="../public/count2.svg" alt="2s Remaining">
+          <img src="../dist/count2.svg" alt="2s Remaining">
       `;
     }, 1500);
 

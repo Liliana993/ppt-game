@@ -10,9 +10,9 @@ export function instructionsView(params: { goTo: Function }): HTMLDivElement {
           <button class="boton-home">JUGAR</button>
       </div>
       <div class="images">
-          <img src="../public/tijera.svg" alt="tijera" class="image scissors">
-          <img src="../public/piedra.svg" alt="piedra" class="image rock">
-          <img src="../public/papel.svg" alt="papel" class="image paper">
+          <img src="../dist/tijera.svg" alt="tijera" class="image scissors">
+          <img src="../dist/piedra.svg" alt="piedra" class="image rock">
+          <img src="../dist/papel.svg" alt="papel" class="image paper">
       </div>
     `;
 

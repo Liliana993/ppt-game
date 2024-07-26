@@ -23,7 +23,7 @@ export function resultView(params: { goTo: Function }): HTMLDivElement {
     <div class="backgroundColor"></div>
 
     <div class="container">
-        <img src="/public/${resultado}.svg" alt="${resultado}">
+        <img src="/dist/${resultado}.svg" alt="${resultado}">
         <div class="score">
             <p>Score</p>
             <p>Jugador: ${playerScore}</p>

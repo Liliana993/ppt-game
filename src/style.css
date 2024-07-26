@@ -3,10 +3,8 @@
   font-weight: 400;
   font-size: 40px;
   font-style: normal;
-
   color: #333333;
   background-color: ghostwhite;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +27,7 @@ body {
   height: 100vh;
 }
 .background {
-  background-image: url("../public/fondo.svg");
+  background-image: url("../dist/fondo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
@@ -77,7 +75,7 @@ body {
   font-family: "Odibee Sans", sans-serif;
   letter-spacing: 2px;
   color: ghostwhite;
-  font-size: 45px;
+  font-size: 35px;
   cursor: pointer;
 }
 .home .images, .instructions .images, .play .images{
@@ -159,19 +157,19 @@ body {
   height: 50vh;
 }
 .piedra {
-    background-image: url("../public/piedra.svg");
+    background-image: url("../dist/piedra.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 .papel {
-    background-image: url("../public/papel.svg");
+    background-image: url("../dist/papel.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 .tijera {
-    background-image: url("../public/tijera.svg");
+    background-image: url("../dist/tijera.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
